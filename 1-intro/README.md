@@ -30,4 +30,10 @@ Three manin components: Agent (who makes decisions), Environment, and Action. Ag
 6. Adjuist the model parameters
 7. Deploy new incoming data!
 
+### 1. Unsupervised learning
+Well you don't have the labels, so you can't do the spliting and make the train/test sets (you don't know the correct answer).
+So you have to use all the data for training and evaluating the model.
+
+
+
 
