@@ -34,6 +34,23 @@ Three manin components: Agent (who makes decisions), Environment, and Action. Ag
 Well you don't have the labels, so you can't do the spliting and make the train/test sets (you don't know the correct answer).
 So you have to use all the data for training and evaluating the model.
 
+### Hold out sets
+we split the data to three groups: train, test, holdout
+the main purpose of the holdout set is to get some idea of how well your model is gonna perform.
+so you tain the model on the train set, test (and adjust) the model parameters with test set, and then evaluate it via holdout set.
+*not trying to cheat with test data.*
 
+### Evaulations:
+#### Supervised learning: 
+1. Classification: Accuracy, correctly classified samples divided by total samples
+2. Regression: MAE, MSE, RMSE (how far off are you from the correct value)
 
+#### Unsupervised learning: 
+Really tricky problem cuz you don't have the labels to compare to!
+you could look at cluster homogeneity, Rand Index
+
+#### Reinforcement Learning
+The evaluations in the method is easier cuz we already included an scoring function into the model.
+
+Unsupervised learning: 
 
