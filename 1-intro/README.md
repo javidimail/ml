@@ -5,6 +5,7 @@
 2. Unsupervised Learning
 3. Reinforced learning
 
+### Definitions
 1. Supervised Learning:
 * Uses labels to train data
 * Uses the history of the data to predict
@@ -12,10 +13,10 @@
 * Example: Hight-Weight of Male and Females
 
 2. Unsupervised learning:
-...No historical labels
-...You get the data points but you don't have the labels
-...Example: Only hight and Weight. no labels at all
-...So you have to "cluster data"
+* No historical labels
+* You get the data points but you don't have the labels
+* Example: Only hight and Weight. no labels at all
+* So you have to "cluster data"
 
 
 
