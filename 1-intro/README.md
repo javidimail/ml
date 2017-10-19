@@ -18,7 +18,16 @@
 * Example: Only hight and Weight. no labels at all
 * So you have to "cluster data"
 
+3. Reinforcement Learning
+Three manin components: Agent (who makes decisions), Environment, and Action. Agent chooses those actions that maximizes the reward over a specific amount of time.
 
+### 1. Supervised Machine Learning:
+1. Acquire Data First!
+2. Clean and Organize the Data!
+3. Split data to train and test sets. 70% for training and 30% for testing.
+4. Train the model (fit the model on the training set)
+5. Evauate the model on the test set
+6. Adjuist the model parameters
+7. Deploy new incoming data!
 
- 
 
